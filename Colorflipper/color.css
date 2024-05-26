@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(199, 186, 186);
+    color: rgb(212, 196, 196);
+    font-size: 0.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+  background-color: aliceblue;
+  align-items: center;
+  display: grid;
+  box-shadow: 0cqmax;
+  height: 3rem;
+}
+
+.nav-center{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h4{
+    font-size: 1.3rem;
+    color: rgb(46, 181, 235);
+    padding-right: 30rem;
+    text-transform: capitalize;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links a{
+    font-size: 1.2rem;
+
+}
+a{
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+nav a:hover{
+  color:blueviolet;
+}
+
+
+main{
+    display: grid;
+    place-items: center;
+}
+.container{
+    text-align: center;
+    padding-top: 10rem;
+
+}
+
+.container h2{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.btn-hero{
+    height: 2rem;
+    width: 8rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    text-transform: uppercase;
+    background: transparent;
+    display: inline-block;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+.color{
+    color:rgb(20, 118, 143);
+}
+ .btn-hero:hover {
+    color: white;
+    background-color: black;
+ }
+
+
+

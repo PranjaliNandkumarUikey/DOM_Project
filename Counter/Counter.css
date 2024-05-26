@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(228, 237, 238);
+    background: url("./img/img.jpg");
+    /* center no-repeat; */
+}
+.container{
+    text-align: center;
+    padding-top: 15%;
+}
+h1{
+    font-size: 4rem;
+} 
+#value{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+.button-container{
+    padding: 1rem;
+}
+
+.btn{
+    color: black;
+    font-size: 0.9rem;
+    background: transparent;
+    text-transform: uppercase;
+    border-radius: 0.2rem;
+    padding: 0.4rem 0.8rem;
+    border: 2px solid black;
+    margin: 0.5rem;
+    
+}
+.btn:hover{
+    color:white;
+    background: black;
+}

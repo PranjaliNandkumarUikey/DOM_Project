@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(199, 220, 233);
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h4 {
+  letter-spacing: 0.25rem;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+.section-center {
+  margin: 8rem;
+  max-width: 73.125rem;
+}
+
+.gift-info h3 {
+  text-transform: uppercase;
+  color:#06568f;;
+}
+.gift-info p {
+  color: rgb(91, 87, 87);
+  margin: 2rem 0;
+
+}
+
+  .section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 3rem;
+    width: 95vw;
+  }
+
+.deadline {
+  display: flex;
+}
+.deadline-format {
+  width: 5rem;
+  height: 5rem;
+  background: rgb(77, 73, 73);
+  color: white;
+  margin-right: 1rem;
+  text-align: center;
+}
+.deadline-format span {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+ .deadline h4{
+  font-size: 1.9rem;
+  margin-bottom: 0.25rem;
+} 
